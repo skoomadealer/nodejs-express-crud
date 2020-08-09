@@ -30,10 +30,14 @@ mongoose.connect('mongodb://localhost/tshirt', function(err, res) {
   }
 });
 
-app.listen(8080);
+app.listen(n);
 console.log('Magic happens on port 8080'); 			// shoutout to the user
 
 // First example router
 app.get('/', function(req, res) {
-  res.send("Hello world!");
+  res.send("SA OÇLAR");
 });
+
+ const sikiş = () => {
+
+ }
